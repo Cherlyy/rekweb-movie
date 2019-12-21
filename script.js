@@ -48,7 +48,7 @@ let buttonSearch = document.querySelector(".button-search");
 //something like default-page (always shown when page is loaded)
 getMovies("avenger");
 
-//ketika film dicari
+//searching file
 buttonSearch.addEventListener("click", function() {
   getMovies(inputKeyword.value);
 });
